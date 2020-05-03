@@ -129,6 +129,12 @@ const updatePresence = (res, rpc) => {
         playback.filename = playback.filename.replace(/ *\[[^\]]*\]/g, "").trimStr(128);
         if (playback.filename.substr(0, playback.filename.lastIndexOf(".")).length == 0) playback.filename = filename;
     }
+	
+	// Replaces dots in filenames to space characters
+    // Solution found at https://stackoverflow.com/a/28673744
+    if (config.replaceDots) {
+        playback.filename = playback.filename.replace(/[.](?=.*[.])/g, " ");
+    }
 
 	// Removes filetype from displaying
 	if (config.ignoreFiletype) playback.filename = playback.filename.substr(0, playback.filename.lastIndexOf("."));
