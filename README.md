@@ -11,3 +11,5 @@ Lamwong | MPC ได้ดึงข้อมูลการเล่นจาก
 
 ## วิธีติดตั้ง และ ใช้งาน
 1. เมื่อคุณเปิดโปรแกรม Media Player Classic เข้าไปที่ `มุมมอง > ตัวเลือก > เครื่องเล่น > ส่วนประสานเว็บ [ View > Options > Player > Web Interface ]` และ ทำการเปิด `ฟังบนพอร์ต: [Listen on port:]` ค่าเริ่มต้นคือ `13579` แต่ถ้าคุณอยากจะเปลี่ยนตัวเลข คุณจะต้องเปลี่ยนทั้ง แอป และ ไฟล์ `config.js`
+![Enable the option "Listen on port"](https://cdn.discordapp.com/attachments/416273308540207116/428748994307424256/unknown.png)
+![In File config.js](https://cdn.discordapp.com/attachments/576044495125348382/706386019871752192/unknown.png)
