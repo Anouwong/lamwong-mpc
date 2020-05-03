@@ -62,3 +62,10 @@ git pull
 
 #### **`exports.showRemainingTime`** | ค่าเริ่มต้น: `false`
 - เมื่อเราใส่ `true` เวลาใน Rich Presence จะนับถอยหลัง | เมื่อเราใส่ `false` เวลาใน Rich Presence จะนับไปข้างหน้า.
+
+## การแก้ไข
+เนื่องจากว่าเราได้ทำการแก้ไขมาจากต้นฉบับ แล้วใส่ระบบให้ใหม่ และ ทันสมัยขื้น ทำให้เราไม่มีสิทธิ์ในการห้ามแก้ไข ทุกคนสามารถแก้ไขได้ตามสบายเลยนะ ไม่เข้าใจตรงไหน สามารถสอบถามได้ที่ เซิร์ฟเวอร์ Discord: https://discord.gg/R8CGz8U
+
+## เครดิต
+- เจ้าของโปรเจค: [angeloanan](https://github.com/angeloanan)
+- ทำระบบใหม่ และ แก้ไขโดย: [Anouwong](https://github.com/Anouwong) [Anouwong#4109](https://discord.gg/R8CGz8U)
